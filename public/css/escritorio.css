@@ -1,0 +1,62 @@
+:root {
+  --color-principal: #0692db; /* Color principal */
+  --color-secundario: #00e373; /* Color secundario */
+  --texto-principal: #f3f3f3;
+  --black-fondo: #2e2e2e;
+}
+
+.main-header {
+  background-color: var(--black-fondo);
+}
+
+.main-header .logo-mxz {
+  width: 60px;
+}
+
+.logo-mini-mxz {
+  width: 50px;
+}
+
+.logo-lg {
+  color: var(--texto-principal);
+}
+
+/* MENU */
+.main-header .sidebar-toggle {
+  float: left;
+  position: absolute;
+}
+
+/* OPCIONES */
+.main-header .navbar-custom-menu,
+.main-header .navbar-right {
+  float: right;
+  position: absolute;
+  right: 0;
+}
+.main-header .sidebar-toggle:before {
+  content: "";
+}
+.bx-menu-alt-left {
+  font-size: 20px;
+  color: var(--texto-principal);
+}
+
+.navbar-nav > li > a {
+  color: var(--texto-principal);
+}
+
+.main-sidebar {
+  background-color: var(--black-fondo);
+  color: var(--texto-principal);
+}
+
+.sidebar-menu > li > a {
+  padding: 12px 5px 12px 15px;
+  display: block;
+  color: white;
+}
+
+.sidebar-menu .treeview-menu > li > a {
+  color: white;
+}
